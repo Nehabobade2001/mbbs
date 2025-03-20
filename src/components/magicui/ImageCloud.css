@@ -1,0 +1,21 @@
+.cloud-image {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .rotate-animation {
+    animation: rotate 30s infinite linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
